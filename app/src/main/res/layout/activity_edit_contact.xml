@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddActivity">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="الاسم"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+        android:id="@+id/et_name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="رقم الهاتف"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:inputType="phone"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+        android:id="@+id/et_number"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="الايميل"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+        android:id="@+id/et_email"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:id="@+id/btn_save"
+        android:text="حفظ"
+        android:textSize="20sp"/>
+
+</LinearLayout>
