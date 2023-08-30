@@ -12,7 +12,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="الاسم"
+        android:hint="Name"
         android:textSize="20sp"
         android:gravity="center"
         android:inputType="textPersonName"
@@ -23,7 +23,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="رقم الهاتف"
+        android:hint="Phone Number"
         android:textSize="20sp"
         android:gravity="center"
         android:inputType="phone"
@@ -34,7 +34,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="الايميل"
+        android:hint="Email"
         android:textSize="20sp"
         android:gravity="center"
         android:inputType="textEmailAddress"
@@ -49,7 +49,8 @@
         android:padding="10dp"
         android:layout_margin="20dp"
         android:id="@+id/btn_save"
-        android:text="حفظ"
+        android:text="Save"
+        android:textAllCaps="false"
         android:textSize="20sp"/>
 
 </LinearLayout>
